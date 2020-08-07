@@ -8,3 +8,8 @@ The code was tested in Strawberry Perl and is expected to run in Perl version 5.
 
 Strawberry Perl includes the LWP or JSON modules, but if they are missing in your Perl distribution, then please follow the instructions of your distribution for installing additional modules. Typically, the CPAN package manager supports installation of the missing Perl modules.
 
+The file named list_of_species_names contains the list of species that are available at Neuromorpho.Org (Aug. 7, 2020). If the data for these species is not available at Neuromorpho.Org, then the interface to the web database may be temporarily unavailable. Please test the status of the web server that hosts the database by the following web link:
+http://neuromorpho.org/api/health
+
+And here is another web link for the list of species. If the list is empty or contains just a few entries, then this also indicates the web server is temporarily unavailable even though the status shows as working:
+http://neuromorpho.org/api/neuron/partition/species

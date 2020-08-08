@@ -3,7 +3,7 @@
 # example: perl retrieve_neuron_counts_by_species.pl
 
 # use strict;
-use LWP::Simple qw(get);
+use LWP::Simple qw($ua get);
 # use Data::Dumper;
 use JSON qw(decode_json);
 

@@ -8,7 +8,7 @@
 # example: perl retrieve_neuron_metadata_by_species.pl
 
 use strict;
-use LWP::Simple qw(get);
+use LWP::Simple qw($ua get);
 
 print "\nRun species-neuron-counts.pl if the exact species name is not known for the query of the web database\n\n";
 

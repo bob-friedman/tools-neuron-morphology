@@ -2,7 +2,7 @@
 
 This repository contains Perl code for tools to retrieve and organize neuronal data at Neuromorpho.Org. The access is by their application programming interface. The code of this repository is reported in a manuscript that is currently under review at a journal.
 
-All testing was in Strawberry Perl at a Perl version of 5.8.1 or higher. Perl is a programming language that is available for commonly used operating systems. Strawberry Perl includes the LWP and JSON modules, but they may not be present in a different Perl distribution, so in this case please follow the instructions for your distribution on installing additional Perl modules. Typically, the CPAN package manager is available and supports installation of these modules.
+All testing was in Strawberry Perl at a version of Perl that is 5.8.1 or higher. Perl is a programming language that is available for commonly used operating systems. Strawberry Perl includes the LWP and JSON modules, but they may not be present in a different Perl distribution, so in this case please follow the instructions for your distribution on installing additional Perl modules. Typically, the CPAN package manager is available and supports installation of these modules.
 
 In this repository is also a file named "list_of_species_names" which contains the list of species that is available at Neuromorpho.Org (as of Aug. 7, 2020). If the data for these species is not available at Neuromorpho.Org, then the interface to the web database may be temporarily unavailable. In this case, please test the status of the web server that hosts the database by the following web link:
 http://neuromorpho.org/api/health

@@ -1,6 +1,6 @@
 ## Tools to remotely access NeuroMorpho.Org database
 
-This repository contains Perl code for tools to retrieve and process neuronal data at Neuromorpho.Org. The access is by their application programming interface. The code of this repository is reported in a manuscript that is currently under review at a journal.
+This repository contains Perl code for tools to retrieve and organize neuronal data at Neuromorpho.Org. The access is by their application programming interface. The code of this repository is reported in a manuscript that is currently under review at a journal.
 
 All testing was in Strawberry Perl at a Perl version of 5.8.1 or higher. Perl is a programming language that is available for commonly used operating systems. Strawberry Perl includes the LWP and JSON modules, but they may not be present in a different Perl distribution, so in this case please follow the instructions for your distribution on installing additional Perl modules. Typically, the CPAN package manager is available and supports installation of these modules.
 

@@ -1,4 +1,5 @@
 ## Tools to remotely access NeuroMorpho.Org database
+![](https://zenodo.org/badge/doi/10.5281/zenodo.3976710.svg)
 
 This repository contains Perl code for tools to retrieve and organize neuronal data at Neuromorpho.Org. The access is by their application programming interface. The code of this repository is reported in a manuscript that is currently under review at a journal.
 

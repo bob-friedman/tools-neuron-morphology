@@ -7,7 +7,7 @@
 # header information that defines fields at first row of table
 
 # use strict;
-use LWP::Simple qw(get);
+use LWP::Simple qw($ua get);
 # use Data::Dumper;
 use JSON qw(decode_json);
 

@@ -33,7 +33,7 @@ The tool set reported here is consistent with both these requirements, however, 
 
 ### `parse_raw_metadata_to_table.pl`
 
-*   **Purpose:** Parses raw metadata files (in JSON format) and converts them into a CSV table.
+*   **Purpose:** Parses raw metadata files (in JSON format) and converts them into a tab-separated table.
 *   **Input Arguments:**
     *   `input_file`: Path to the raw JSON metadata file.
     *   `output_file`: Path for the output tab-separated table.

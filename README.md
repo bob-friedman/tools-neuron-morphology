@@ -88,3 +88,11 @@ The tool set reported here is consistent with both these requirements, however, 
 *   **Output Format:** Outputs the following to standard output: 1. A table of neuron_id and species. 2. A semicolon-separated list of unique species names found. 3. A semicolon-separated list of duplicate neuron_id values.
 *   **Dependencies:** Expects tab-separated input with 'neuron_id' and 'species' columns. Requires the `List::MoreUtils` Perl module.
 *   **Example Usage:** `perl parse_raw_metadata_to_table.pl raw_metadata.json parsed_metadata.tsv | perl verify_metadata_species_id.pl`
+
+## Citation
+
+If you use the programs or scripts from this repository in your research, please acknowledge the following publication:
+
+[https://www.sciencedirect.com/science/article/pii/S2665963820300233](https://www.sciencedirect.com/science/article/pii/S2665963820300233)
+
+We encourage you to consult the article for full citation details, including authors, title, and journal information, to include in your references.
